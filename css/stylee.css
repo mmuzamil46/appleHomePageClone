@@ -1,0 +1,297 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.header {
+  /* background-color: rgba(255, 255, 255, 0.9); */
+  /* color: #333333; */
+  height: 44px;
+  position: fixed;
+}
+.header ul {
+  list-style: none;
+}
+.header a {
+  font-size: 12px;
+}
+/* .header li {
+  white-space: nowrap;
+} */
+.gap {
+  gap: 1rem;
+}
+
+.iphone-16-pro {
+  height: 100vh;
+  background-image: url("../image/hero_iphone16pro_avail__fnf0f9x70jiy_largetall_2x.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.hero-text h1 {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 50px;
+  line-height: 25px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.hero-text p {
+  font-size: 25px;
+  font-weight: 200;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.hero-text {
+  text-align: center;
+}
+.iphone-16-pro a,
+.iphone-16 a {
+  color: white;
+  text-decoration: none;
+}
+.iphone-16-pro a:hover,
+.iphone-16 a:hover {
+  color: #f0f0f0;
+}
+
+.iphone-16 {
+  height: 100vh;
+  background-image: url("../image/hero_iphone16_avail__euwzls69btea_largetall_2x.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+.ipad-air {
+  height: 100vh;
+  background-image: url("../image/hero_ipad_air__enn6321t3tkm_large.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+.bottom p {
+  background: linear-gradient(
+    to right,
+    #178af7,
+    #6a9bf7,
+    #7f8cf8,
+    #ac8af8,
+    #c085f2,
+    #c8a0e1,
+    #d354bc,
+    #ea6183,
+    #f34a41,
+    #f5530f
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+.logo img {
+  width: 200px;
+  height: 46px;
+}
+/* .logo p {
+   font-size: 25px;
+  text-align: center;
+} */
+.ipad-air a {
+  text-decoration: none;
+  color: black;
+}
+.ipad-air a:hover {
+  color: black;
+}
+.watch {
+  height: 100vh;
+  gap: 1rem;
+}
+.series-10 {
+  width: 50%;
+  height: 100%;
+  background-image: url("../image/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ultra {
+  width: 50%;
+  height: 100%;
+  background-image: url("../image/promo_apple_watch_ultra2_avail__dyawbjw9cowi_large.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.watch-logo {
+  width: 147px;
+  height: 57px;
+}
+
+.airpod {
+  height: 100vh;
+  gap: 1rem;
+}
+.airpods-pro {
+  width: 50%;
+  height: 100%;
+  background-image: url("../image/promo_airpods_pro_2_avail__vkitqi3okwie_medium.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.airpods-4 {
+  width: 50%;
+  height: 100%;
+  background-image: url("../image/promo_airpods_4_avail__bl22kvpg6ez6_medium.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.foot {
+  background-color: #f5f5f7;
+}
+.text {
+  color: rgba(0, 0, 0, 0.46);
+  width: 980px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.text a {
+  color: rgba(0, 0, 0, 0.46);
+}
+.links {
+  font-size: 12px;
+}
+.link-cont {
+  flex: 1;
+}
+.link-cont a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.56);
+}
+.link-cont a:hover {
+  color:  rgba(0, 0, 0, 0.56);;
+  text-decoration: underline;
+}
+.link-cont li {
+  list-style: none;
+}
+.link-cont span h4 {
+  color: rgba(0, 0, 0, 0.66);
+}
+.ways {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 12px;
+  font-weight: 400;
+
+}
+.link-cont span{
+  display: flex;
+  justify-content: space-between;
+  font-style: bolder;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.link-cont hr{
+  display: none;
+}
+.last-foot{
+  font-size: 12px;
+  /* position: relative; */
+}
+/* #right{
+  position: absolute;
+  right: 0;
+} */
+
+@media (min-width: 768px) {
+  .gap {
+    gap: 1rem; 
+  }
+}
+
+
+@media (min-width: 992px) {
+  .gap {
+    gap: 2rem; 
+  }
+}
+@media (max-width: 768px) {
+  .iphone-16-pro {
+    background-image: url("../image/hero_iphone16pro_avail__fnf0f9x70jiy_small.jpg");
+    height: 90vh;
+  }
+  .iphone-16 {
+    background-image: url("../image/hero_iphone16_avail__euwzls69btea_small.jpg");
+    /* height: 90vh; */
+  
+  }
+  .ipad-air {
+    background-image: url("../image/hero_ipad_air__enn6321t3tkm_medium.jpg");
+    /* height: 90vh; */
+  }
+  .series-10 {
+    background-image: url("../image/promo_apple_watch_series_10_avail_lte__c70y29goir42_medium_2x.jpg");
+  }
+  .ultra {
+    background-image: url("../image/promo_apple_watch_ultra2_avail__dyawbjw9cowi_medium_2x.jpg");
+  }
+  .watch {
+    height: 200vh;
+  }
+  .watch-logo {
+    width: 115px;
+    height: 44px;
+  }
+  .airpod {
+    height: 200vh;
+  }
+  .airpods-pro {
+    background-image: url("../image/promo_airpods_pro_2_avail__vkitqi3okwie_small_2x.jpg");
+  }
+  .airpods-4 {
+    background-image: url("../image/promo_airpods_4_avail__bl22kvpg6ez6_small_2x.jpg");
+  }
+  .hero-text h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .hero-text p {
+    font-size: 20px;
+  }
+  .logo img {
+    width: 170px;
+    height: 38px;
+  }
+ 
+  .hero-btn {
+    margin-bottom: 20px;
+  }
+  .link-cont hr{
+    display: block;
+  }
+  .link-cont{
+    margin-right: 25px;
+  }
+ 
+}
+@media  (min-width: 768px) {
+ .last-foot{
+  position: relative;
+
+ }
+ #right{
+  position: absolute;
+  right: 0;
+ }
+}
