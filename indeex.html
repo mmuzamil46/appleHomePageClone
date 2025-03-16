@@ -11,16 +11,17 @@
       rel="stylesheet"
      
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <!-- <link
       rel="stylesheet"
       href="font-awesome-4.7.0/css/font-awesome.min.css"
      
-    />
+    /> -->
     <link
       href="https://fonts.cdnfonts.com/css/sf-pro-display"
       rel="stylesheet"
     />
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/script.js"></script>
   </head>
   <body>
     <header
@@ -58,6 +59,22 @@
         </li>
       </ul>
     </header>
+    <div class="mobile-menu container-fluid bg-dark d-none d-md-none ">
+      <span class="closei container-fluid d-flex justify-content-end align-items-center text-light"><i class="fa-regular fa-x"></i></span>
+      <ul class="d-md-flex justify-content-center flex-column align-items-start container-fluid  text-light px-4 gap-4 fw-5">
+        <li><span  class="text-decoration-none ">Store</span><i class="fa fa-angle-right"></i></li>
+        <li><span  class="text-decoration-none ">Mac</span><i class="fa fa-angle-right"></i></li>
+        <li><span  class="text-decoration-none">iPad</span><i class="fa fa-angle-right"></i></li>
+        <li><span  class="text-decoration-none">iPhone</span><i class="fa fa-angle-right"></i></li>
+        <li><span  class="text-decoration-none">Watch</span><i class="fa fa-angle-right"></i></li>
+        <li><span  class="text-decoration-none">Vision</span><i class="fa fa-angle-right"></i></li>
+        <li><span  class="text-decoration-none">AirPods</span><i class="fa fa-angle-right"></i></li>
+        <li><span  class="text-decoration-none">Tv & Home</span><i class="fa fa-angle-right"></i></li>
+        <li><span  class="text-decoration-none">Entertaiment</span><i class="fa fa-angle-right"></i></li>
+        <li><span  class="text-decoration-none">Accessories</span><i class="fa fa-angle-right"></i></li>
+        <li><span  class="text-decoration-none">Support</span><i class="fa fa-angle-right"></i></li>
+      </ul>
+    </div>
     <section
       class="iphone-16-pro d-flex flex-column align-items-center justify-content-end justify-content-md-start mb-2"
     >
@@ -292,10 +309,10 @@
         <ul class="links d-flex flex-column flex-md-row
          justify-content-start container-fluid container-md mb-3 px-3 px-md-0 gap-md-5  list-unstyled">
           <li class="link-cont">
-            <hr>
-            <span class="fw-bolder text-muted ">Shop and Learn  <i class="fa fa-angle-down d-block d-md-none"></i></span>
-            <hr />
-            <ul class="d-none d-md-block list-unstyled my-2">
+          
+            <span class="fw-md-bolder text-md-muted ">Shop and Learn  <i class="fa fa-angle-down d-block d-md-none"></i></span>
+           
+            <ul class=" d-md-block list-unstyled my-2">
               <li><a href="#">Store</a></li>
               <li><a href="#">Mac</a></li>
               <li><a href="#">iPad</a></li>
@@ -308,26 +325,29 @@
               <li><a href="#">Accessories</a></li>
               <li><a href="#">Gift Cards</a></li>
             </ul>
-            <span class="fw-bolder text-muted ">Apple Wallet<i class="fa fa-angle-down d-block d-md-none"></i></span>
-            <hr>
-            <ul class="d-none d-md-block my-2">
+            <hr />
+            <span class=" fw-md-bolder text-md-muted ">Apple Wallet<i class="fa fa-angle-down d-block d-md-none"></i></span>
+         
+            <ul class=" d-md-block my-2">
               <li><a href="#">Wallet</a></li>
               <li><a href="#">Apple Card</a></li>
               <li><a href="#">Apple Pay</a></li>
               <li><a href="#">Apple Cash</a></li>
             </ul>
+            <hr>
           </li>
           <li class="link-cont">
-            <span class="fw-bolder text-muted ">Account<i class="fa fa-angle-down d-block d-md-none"></i></span>
-            <hr>
-            <ul class="d-none d-md-block my-2">
+            <span class="fw-md-bolder text-md-muted">Account<i class="fa fa-angle-down d-block d-md-none"></i></span>
+          
+            <ul class=" d-md-block my-2">
               <li><a href="#">Manage Your Apple Account</a></li>
               <li><a href="#">Apple Store Account</a></li>
               <li><a href="#">iCloud.com</a></li>
             </ul>
-            <span class="fw-bolder text-muted ">Entertainment<i class="fa fa-angle-down d-block d-md-none"></i></span>
             <hr>
-            <ul class="d-none d-md-block my-2">
+            <span class="fw-md-bolder text-md-muted ">Entertainment<i class="fa fa-angle-down d-block d-md-none"></i></span>
+           
+            <ul class=" d-md-block my-2">
               
               <li><a href="#">Apple One</a></li>
               <li><a href="#">Apple TV+</a></li>
@@ -339,12 +359,13 @@
               <li><a href="#">Apple Books</a></li>
               <li><a href="#">App Store</a></li>
             </ul>
+            <hr>
           </li>
           <li class="link-cont">
-            <span class="fw-bolder text-muted ">Apple Store<i class="fa fa-angle-down d-block d-md-none"></i></span>
-            <hr>
+            <span class="fw-md-bolder text-md-muted ">Apple Store<i class="fa fa-angle-down d-block d-md-none"></i></span>
+           
           
-            <ul class="d-none d-md-block my-2">
+            <ul class=" d-md-block my-2">
               
               <li><a href="#">Find a Store</a></li>
               <li><a href="#">Genius Bar</a></li>
@@ -359,24 +380,27 @@
               <li><a href="#">Order Status</a></li>
               <li><a href="#">Shopping Help</a></li>
             </ul>
+            <hr>
           </li>
           <li class="link-cont">
-            <span class="fw-bolder text-muted ">For Business<i class="fa fa-angle-down d-block d-md-none"></i></span>
-            <hr>
-            <ul class="d-none d-md-block my-2">
+            <span class="fw-md-bolder text-md-muted ">For Business<i class="fa fa-angle-down d-block d-md-none"></i></span>
+            
+            <ul class=" d-md-block my-2">
               <li><a href="#">Apple and Business</a></li>
               <li><a href="#">Shop for Business</a></li>
             </ul>
-            <span class="fw-bolder text-muted ">For Education<i class="fa fa-angle-down d-block d-md-none "></i></span>
             <hr>
-            <ul class="d-none d-md-block my-2">
+            <span class="fw-md-bolder text-md-muted ">For Education<i class="fa fa-angle-down d-block d-md-none "></i></span>
+           
+            <ul class=" d-md-block my-2">
               <li><a href="#">Apple and Education</a></li>
               <li><a href="#">Shop for K-12</a></li>
               <li><a href="#">Shop for College</a></li>
             </ul>
-            <span class="fw-bolder text-muted ">For Healthcare<i class="fa fa-angle-down d-block d-md-none"></i></span>
             <hr>
-            <ul class="d-none d-md-block my-2">
+            <span class="fw-md-bolder text-md-muted ">For Healthcare<i class="fa fa-angle-down d-block d-md-none"></i></span>
+           
+            <ul class=" d-md-block my-2">
               <li><a href="#">Apple in Healthcare</a></li>
               <li><a href="#">Mac in Healthcare</a></li>
               <li><a href="#">Health on Apple Watch</a></li>
@@ -384,17 +408,19 @@
                 <a href="#">Health Records on iPhone and iPad</a>
               </li>
             </ul>
-            <span class="fw-bolder text-muted ">For Government<i class="fa fa-angle-down d-block d-md-none"></i></span>
-              <hr>
-            <ul class="d-none d-md-block my-2">
+            <hr>
+            <span class="fw-md-bolder text-md-muted ">For Government<i class="fa fa-angle-down d-block d-md-none"></i></span>
+              
+            <ul class=" d-md-block my-2">
               <li><a href="#">Shop for Government</a></li>
               <li><a href="#">Shop for Veterans and Military</a></li>
             </ul>
+            <hr>
           </li>
           <li class="link-cont">
-            <span class="fw-bolder text-muted ">Apple Values<i class="fa fa-angle-down d-block d-md-none"></i></span>
-            <hr>
-            <ul class="d-none d-md-block my-2">
+            <span class="fw-md-bolder text-md-muted ">Apple Values<i class="fa fa-angle-down d-block d-md-none"></i></span>
+           
+            <ul class=" d-md-block my-2">
               
               <li><a href="#">Accessibility</a></li>
               <li><a href="#">Education</a></li>
@@ -404,9 +430,10 @@
               <li><a href="#">Racial Equity and Justice</a></li>
               <li><a href="#">Supply Chain</a></li>
             </ul>
-            <span class="fw-bolder text-muted ">About Apple<i class="fa fa-angle-down d-block d-md-none"></i></span>
             <hr>
-            <ul class="d-none d-md-block link-secondary text-decoration-none my-2">
+            <span class="fw-md-bolder text-md-muted ">About Apple<i class="fa fa-angle-down d-block d-md-none"></i></span>
+           
+            <ul class=" d-md-block link-secondary text-decoration-none my-2">
               <li><a href="#">Newsroom</a></li>
               <li><a href="#">Apple Leadership</a></li>
               <li><a href="#">Career Opportunities</a></li>
@@ -415,6 +442,7 @@
               <li><a href="#">Events</a></li>
               <li><a href="#">Contact Apple</a></li>
             </ul>
+            <hr>
           </li>
         </ul>
         <div class="container-fluid   px-3 px-md-0 mb-3">
